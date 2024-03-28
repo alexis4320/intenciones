@@ -24,8 +24,8 @@
         <div class="form-group">
           <h3>Solicitante</h3>
           <hr>
-          <label for="id_documento">RUT ó Pasaporte del Solicitante:</label>
-          <input type="number" id="id_documento" name="n_documento" required>
+          <label for="id_documento" >RUT ó Pasaporte del Solicitante:</label>
+          <input type="text" id="id_documento" name="n_documento" pattern="^[0-9]{7,8}-[0-9Kk]{1}$" title="Solo números y guiones son permitidos." required>
 
           <label for="id_nombres_solicitante">Nombres del Solicitante:</label>
           <input type="text" id="id_nombres_solicitante" name="nombres_solicitante" required>
